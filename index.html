@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Portifolio </title>
+
+</head>
+<body>
+   <nav>
+    <div class="left">
+        <a href="/">Tito Joel</a>
+    </div>
+    <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+        
+         <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+         </a>
+        
+         <a href="http://mailto:titolinti@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+         </a>
+
+    </div>
+   </nav> 
+<main>
+    <!--SECTION 1: Hero-->
+    <section class="hero-section">
+        <div class="text">
+        <h2> Hi I'm Joel</h2>
+        <p> Hi, I’m Tito Joel, a passionate and detail-oriented Frontend Web Developer with a strong focus on creating clean, responsive, and accessible web interfaces. I specialize in building intuitive user experiences using modern web technologies such as HTML5, CSS3, JavaScript, and frontend libraries/frameworks like React.js, Tailwind CSS, and Bootstrap.
+
+            <p>I thrive on transforming design concepts into functional, efficient, and scalable websites. My development process blends creativity with technical precision, ensuring that every site I build is fast, mobile-friendly, SEO-optimized, and aligned with current UI/UX best practices.</p>
+        </p>
+            
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="#testimony">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Testimony</span>
+                </a>
+
+                <a href="#contacts">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+        <div class="headshot">
+            <img src="images/head.webp" alt="No image">
+        </div>
+
+    </section>
+
+    <!--SECTION 2: Skills-->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+            As a frontend web developer, I bring a strong command of HTML5, CSS3, and JavaScript (ES6+), which form the foundation of all my web projects. I create well-structured, semantic, and accessible web pages with a focus on responsive design using modern techniques such as Flexbox, CSS Grid, and media queries. My JavaScript skills allow me to add dynamic interactivity, manipulate the DOM efficiently, and work with APIs for real-time data.
+
+            I specialize in building modern user interfaces using React.js, leveraging components, hooks, and props to create scalable, maintainable applications. For styling, I use Tailwind CSS for its utility-first approach and Bootstrap for rapid layout prototyping. I also have experience translating high-fidelity UI/UX designs from tools like Figma and Adobe XD into clean, pixel-perfect code
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="images/html-5.png" alt="Html image">
+                <span>HTML</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/css-3.png" alt="Css image">
+                <span>CSS</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/java-script.png" alt="java-script image">
+                <span>Java Script</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/social (1).png" alt="Bootsrap icon ">
+                <span>Bootsrap</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/database.png" alt="database image">
+                <span>Database</span>
+            </div>
+
+        </div>
+    </section>
+
+     <!--SECTION 3: Testimony-->
+    <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+        <div class="group">
+            <div class="personal-details">
+                <img src="images/head.webp" alt="testimony image">
+                <p>Tamim Rashid</p>
+                <p>Smartfy Coordinator</p>
+            </div>
+
+            <div class="text">
+               “Working with Tito has been an absolute pleasure. He’s a dedicated frontend developer with a great eye for detail and a strong understanding of responsive design. His ability to turn concepts into clean, functional websites is impressive.”
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION 4: Contacts-->
+    <section id="contacts" class="contact-section">
+        <h2>Contacts</h2>
+        <div class="group">
+            <div class="text">
+                Contact Information. <br>
+
+                📧 Email: titojoel@example.com <br>
+
+                🌍 Location: Arusha, Tanzania (available for remote work) <br>
+
+                💼 LinkedIn: linkedin.com/in/titojoel <br>
+
+                💻 GitHub: github.com/titojoel <br>
+
+                🌐 Portfolio: www.titojoel.dev (or your real domain)
+            </div>
+
+            <div class="forum">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="message">Message</label>
+               <textarea id="message" cols="30" rows="10"></textarea>
+
+               <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
